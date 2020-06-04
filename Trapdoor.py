@@ -44,6 +44,7 @@ def encrypt2(password):
     block_length_crypttext = 15
     lst_char_pass = alt_char_of_str(password)
     crypt_nums = []
+    crypt = ""
 
     for str in lst_char_pass:
         if len(str)==2:
@@ -52,7 +53,9 @@ def encrypt2(password):
             crypt_nums.append((len(alphabets_symbols)*a)+b)
         else:
             crypt_nums.append(alphabets_symbols.index(str))
-    return crypt_nums
+    for num in crypt_nums:
+        crypt = crypt + alphabets_symbols[((num**e)%n)%len(alphabets_symbols)]
+    return crypt
 p = 7523
 q = 5843
 #n = p*q
