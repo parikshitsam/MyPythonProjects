@@ -55,7 +55,11 @@ def encrypt2(password):
             crypt_nums.append(alphabets_symbols.index(str))
     for num in crypt_nums:
         crypt = crypt + alphabets_symbols[((num**e)%n)%len(alphabets_symbols)]
+    print(crypt_nums)
     return crypt
+
+#def decrypt(encrypted_password):
+
 p = 7523
 q = 5843
 #n = p*q
@@ -63,6 +67,9 @@ e = 6029
 block_length_plaintext = 2
 block_length_crypttext = 15
 #print((66**block_length_plaintext)<n)
-print(encrypt2("abcdefgh"))
+print(encrypt2("abcdefghi"))
 
-#def decrypt2(password)
+def decrypt2(password):
+    lst_nums = []
+    for char in password:
+
