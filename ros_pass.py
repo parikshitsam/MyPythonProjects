@@ -1,3 +1,17 @@
+def one_way_encrypt(password):
+    alphabets_symbols = """abcdefghijklmnopqrstuvwxyz123456789!@#$%^&*()_+-={\}[]';/";:/?.>,<"""
+    n = 43956889
+    e = 6029
+    crypt = ""
+    for two_chars in range(int(len(password))-1):
+        a = password[two_chars]
+        b = password[two_chars+1]
+        a_num = alphabets_symbols.index(a)
+        b_num = alphabets_symbols.index(b)
+        crypt = crypt + alphabets_symbols[((((66*a_num)+b_num)**(e))%n)%(len(alphabets_symbols))]
+    return crypt
+
+
 while True:
     a = input("Do you want to signup or login or exit?\n")
     if a == "exit":
@@ -26,7 +40,7 @@ while True:
                 break
             else:
                 print("You entered different passwords.")
-        s += "\"" + password + "\"" + "}"
+        s += "\"" + one_way_encrypt(password) + "\"" + "}"
         file.close()
         file = open("login_system_data.txt", "w")
         file.write(s)
@@ -41,7 +55,7 @@ while True:
             continue
         while True:
             password = input("Enter your password\n")
-            if password != dataDict[name]:
+            if one_way_encrypt(password) != dataDict[name]:
                 print("wrong password")
                 continue
             else:
@@ -52,22 +66,3 @@ while True:
             continue
         else:
             break
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
