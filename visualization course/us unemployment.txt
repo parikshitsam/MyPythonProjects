@@ -1,0 +1,56 @@
+1	1	 Nevada	28.2%	Negative increase 21.9
+2	2	 Michigan	22.7%	Negative increase 18.6
+3	3	 Hawaii	22.3%	Negative increase 19.7
+—	—	 American Samoa[5]	18.0%	—
+4	4	 Rhode Island	17%	Negative increase 12.4
+5	5	 Indiana	16.9%	Negative increase 13.7
+6	6	 Ohio	16.8%	Negative increase 11.3
+7	7	 Illinois	16.4%	Negative increase 11.8
+8	8	 New Hampshire	16.3%	Negative increase 13.7
+9	9	 Vermont	15.6%	Negative increase 12.4
+10	10	 California	15.5%	Negative increase 10.2
+11	11	 Kentucky	15.4%	Negative increase 9.6
+11	11	 Mississippi	15.4%	Negative increase 10.1
+11	11	 Washington	15.4%	Negative increase 10.3
+14	14	 New Jersey	15.3%	Negative increase 11.5
+15	15	 West Virginia	15.2%	Negative increase 9.1
+16	16	 Massachusetts	15.1%	Negative increase 12.2
+16	16	 Pennsylvania	15.1%	Negative increase 9.1
+18	18	 Tennessee	14.7%	Negative increase 11.2
+19	19	 Louisiana	14.5%	Negative increase 7.6
+19	19	 New York	14.5%	Negative increase 10
+21	21	 Delaware	14.3%	Negative increase 9.2
+22	22	 Oregon	14.2%	Negative increase 10.9
+23	23	 Wisconsin	14.1%	Negative increase 10.7
+24	24	 Oklahoma	13.7%	Negative increase 10.6
+25	25	 Alabama	12.9%	Negative increase 9.4
+25	25	 Alaska	12.9%	Negative increase 7.3
+25	25	 Florida	12.9%	Negative increase 8.6
+28	28	 Texas	12.8%	Negative increase 8.1
+29	29	 Arizona	12.6%	Negative increase 7.1
+30	30	 North Carolina	12.2%	Negative increase 7.8
+31	31	 South Carolina	12.1%	Negative increase 9.5
+32	32	 Georgia	11.9%	Negative increase 7.7
+33	33	 Idaho	11.5%	Negative increase 8.9
+34	34	 Colorado	11.3%	Negative increase 6.8
+34	34	 Montana	11.3%	Negative increase 7.8
+34	34	 New Mexico	11.3%	Negative increase 5.4
+37	37	 Kansas	11.2%	Negative increase 8.1
+—	—	 Northern Mariana Islands[5]	11.2%	—
+38	—	 District of Columbia	11.1%	Negative increase 5.1
+39	38	 Maine	10.6%	Negative increase 7.4
+39	38	 Virginia	10.6%	Negative increase 7.3
+41	40	 Arkansas	10.2%	Negative increase 5.4
+41	40	 Iowa	10.2%	Negative increase 6.5
+41	40	 South Dakota	10.2%	Negative increase 6.9
+44	43	 Maryland	9.9%	Negative increase 6.6
+45	44	 Missouri	9.7%	Negative increase 5.2
+45	44	 Utah	9.7%	Negative increase 6.1
+47	46	 Wyoming	9.2%	Negative increase 5.5
+48	—	 Puerto Rico[6]	8.8%	Positive decrease 0.1
+49	47	 North Dakota	8.5%	Negative increase 6.3
+50	48	 Nebraska	8.3%	Negative increase 4.1
+51	49	 Minnesota	8.1%	Negative increase 5
+52	50	 Connecticut	7.9%	Negative increase 4.2
+53	—	 Virgin Islands[7]	5.2%	Positive decrease 0.1
+54	—	 Guam[8]	3.6%	Positive decrease 1.0
